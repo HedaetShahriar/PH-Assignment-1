@@ -54,14 +54,32 @@ section{
 }
 .section-button{
     color: #FFFFFF;
-    background-color: #5490F5;
     border: none;
     padding: 11px 20px;
     border-radius: 8px;
     font-weight: 600;
     font-size: 16px;
 }
-
+.btn-primary:hover {
+    background-color: #5490F5;
+}
+.section-button:hover {
+    background-color: #004d3a;
+}
+.banner-button:hover {
+    background-color: #5490F5;
+}
+nav button:hover {
+    border-color: #5490F5;
+    color: #5490F5;
+}
+.btn-footer:hover {
+    background-color: #5490F5;
+}
+.dButton:hover {
+    background-color: #5490F5;
+    color: #FFFFFF;
+}
 .white-box-quote{
     background-color: #ffffff;
     background-image: url('../assets/quote-bg.png');
@@ -180,6 +198,24 @@ nav button{
 #box3{
     background-color: #F7EBCF;
 }
+#vb1{
+    background-color: #5490F5;
+}
+#vb1:hover {
+    background-color: #FFC239;
+}
+#vb2{
+    background-color: #09A15C;
+}
+#vb2:hover {
+    background-color: #823a3a;
+}
+#vb3{
+    background-color: #FFC239;
+}
+#vb3:hover {
+    background-color: #5490F5;
+}
 /* news styles */
 .news h3{
     margin: 0 0 24px 0;
@@ -220,6 +256,13 @@ nav button{
     font-weight: 700;
     padding: 40px;
 }
+#db1{
+    background-color: #C6E4D6;
+}
+#db1:hover {
+    background-color: #2d2f9f;
+    color: #FFFFFF;
+}
 .dInput{
     width: 980px;
     border: none;
@@ -244,7 +287,7 @@ nav button{
     text-align: center;
 }
 .footer-InputBox{
-    gap: 0;
+    display: flex;
 }
 .fInputBox{
     padding: 18px 40px;
@@ -259,7 +302,7 @@ nav button{
     padding: 18px 35px;
     border-radius: 0 8px 8px 0;
     font-weight: 600;
-    font-family: 18px;
+    font-size: 18px;
     margin: 0;
 }
 .footer-last{
