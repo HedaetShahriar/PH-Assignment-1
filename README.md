@@ -4,9 +4,13 @@
 
 This project is a static informational webpage designed to showcase the vision, pillars, and initiatives of "Bangladesh 2.0." It highlights themes of idea, innovation, future vision, and challenges for a new Bangladesh, aiming to inform users about key development areas and encourage engagement.
 
+---
+
 ## Live Demo
 
 You can view a live demo of the project here: [Bangladesh 2.0](https://hedaetshahriar.github.io/PH-Assignment-1/)
+
+---
 
 ## Features
 
@@ -27,45 +31,51 @@ You can view a live demo of the project here: [Bangladesh 2.0](https://hedaetsha
 * **Newsletter Subscription:** A footer section for users to subscribe to a newsletter.
 * **Social Media Links:** Footer links to Facebook, Instagram, and X (formerly Twitter).
 
+---
+
 ## Technologies Used
 
 * HTML5
 * CSS3
 * Google Fonts (Fira Sans)
 
+---
+
 ## Project Structure
 
 The project follows a simple structure:
 
 ```
-├── index.html          # Main HTML file
+Bangladesh-2.0-Project/   # Root folder for this specific project
+├── index.html            # Main HTML document
 ├── styles/
-│   └── style.css       # CSS stylesheet
-└── assets/             # Folder for images and other static assets
-├── hero.png
-├── card-icon.png
-├── quote-bg.png
-├── satelite.png
-├── al-jazeera.png
-├── facebook.png
-├── instagram.png
-└── x.png
-└── (other images...)
+│   └── style.css         # Primary CSS stylesheet
+└── assets/               # Directory for all static assets
+    ├── hero.png
+    ├── card-icon.png
+    ├── quote-bg.png
+    ├── satelite.png
+    ├── al-jazeera.png
+    ├── facebook.png
+    ├── instagram.png
+    └── x.png
 ```
+---
 
 ## Setup and Usage
 
 1.  **Clone the repository (if it's on Git) or download the files.**
-    If this project is part of your `PH-Assignment-1` repository, users might clone that. Otherwise, provide a specific repository link if it's standalone.
     ```bash
     # Example for the collection:
     # git clone [https://github.com/HedaetShahriar/PH-Assignment-1.git](https://github.com/HedaetShahriar/PH-Assignment-1.git)
-    # cd PH-Assignment-1/YourProjectFolder  (Replace YourProjectFolder)
+    # cd Bangladesh-2.0-Project
     ```
 2.  **Ensure the folder structure is maintained as described above.** The CSS file (`styles/style.css`) and all images in the `assets/` folder must be in their correct relative paths for the page to render correctly.
 3.  **Open `index.html` in your preferred web browser.**
 
 No special compilation or build steps are required.
+
+---
 
 ## Customization
 
@@ -74,10 +84,14 @@ No special compilation or build steps are required.
 * **Images:** Replace images in the `assets/` folder. Ensure new image paths are updated in `index.html` and `style.css` if names or locations change.
 * **The `opinion` section in `index.html` is currently empty and can be populated with relevant content and styled accordingly.**
 
+---
+
 ## Author
 
 * Md. Hedaet Shahriar Himon
     * GitHub: [https://github.com/HedaetShahriar](https://github.com/HedaetShahriar)
+
+---
 
 ## 🙌 Contributing
 
